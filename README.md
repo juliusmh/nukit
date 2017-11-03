@@ -7,8 +7,11 @@ If you are searching for a more complete css framework this might not be the rig
 The design is inspired by [Zoomy](http://zoommyapp.com/) and the [Photon UI Kit](https://github.com/connors/photon). Some code might even be shamelessly copy pasted from the Photon UI Kit (MIT license rocks).
 
 ## Screenshots
+
+### Dark theme
 ![Screenshot 1](https://raw.githubusercontent.com/juliusmh/nukit/master/docs/screen1.png "Screenshot 1")
 
+### Light theme
 ![Screenshot 1 light](https://raw.githubusercontent.com/juliusmh/nukit/master/docs/screen1-light.png "Screenshot 1 light")
 
 ## Docs
