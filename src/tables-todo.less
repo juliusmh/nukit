@@ -1,0 +1,53 @@
+//
+// Navs.scss
+// --------------------------------------------------
+
+table {
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  border-collapse: separate;
+  font-size: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: @color-control-darker;
+}
+
+tbody {
+  background-color: @color-control-darker;
+}
+
+.table-striped tr:nth-child(even) {
+   background-color: @color-control;
+}
+
+tr:active,
+.table-striped tr:active:nth-child(even) {
+  color: #fff;
+  background-color: @color-blue-light;
+}
+
+thead tr:active {
+  color: @color-blue-light;
+  background-color: @color-control-darker;
+}
+
+th {
+  font-weight: normal;
+  border-right: 1px solid @color-control-element;
+  border-bottom: 1px solid @color-control-element;
+}
+
+th,
+td {
+  padding: 2px 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:last-child {
+    border-right: 0;
+  }
+}

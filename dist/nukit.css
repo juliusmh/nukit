@@ -256,6 +256,42 @@ h6 {
   display: flex;
   flex: 1;
 }
+.pane-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+.pane {
+  position: relative;
+  overflow-y: auto;
+  flex: 1;
+  border-left: 1px solid #2a2d31;
+}
+.pane:first-child {
+  border-left: 0;
+}
+.pane-sm {
+  max-width: 220px;
+  min-width: 150px;
+}
+.pane-mini {
+  width: 80px;
+  flex: none;
+}
+.pane-one-fourth {
+  width: 25%;
+  flex: none;
+}
+.pane-one-third {
+  width: 33.3%;
+  flex: none;
+}
+.pane-control {
+  background-color: #2a2d31;
+}
 .toolbar {
   background-color: #1d1f22;
   min-height: 22px;
@@ -404,6 +440,80 @@ h6 {
 }
 .btn-group .active .icon {
   color: #ffffff;
+}
+.list-group {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-group * {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-group-item {
+  padding: 10px;
+  font-size: 12px;
+  color: #414142;
+  border-top: 1px solid #2a2d31;
+}
+.list-group-item:first-child {
+  border-top: 0;
+}
+.list-group-item.active,
+.list-group-item.selected {
+  color: #fff;
+  background-color: #0076ff;
+}
+.list-group-header {
+  padding: 10px;
+}
+.media-object {
+  margin-top: 3px;
+}
+.media-object.pull-left {
+  margin-right: 10px;
+}
+.media-object.pull-right {
+  margin-left: 10px;
+}
+.media-body {
+  overflow: hidden;
+}
+.nav-group {
+  font-size: 13px;
+}
+.nav-group-item {
+  padding: 2px 10px 2px 25px;
+  display: block;
+  color: #c1c5cb;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nav-group-item:active,
+.nav-group-item.active {
+  background-color: #0076ff;
+  color: white;
+}
+.nav-group-item .icon {
+  width: 19px;
+  height: 18px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 7px;
+  font-size: 18px;
+  text-align: center;
+}
+.nav-group-title {
+  margin: 0;
+  padding: 10px 10px 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #f8f9fa;
 }
 @font-face {
   font-family: "photon-entypo";
