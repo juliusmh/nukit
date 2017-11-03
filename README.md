@@ -9,5 +9,7 @@ The design is inspired by [Zoomy](http://zoommyapp.com/) and the [Photon UI Kit]
 ## Screenshots
 ![Screenshot 1](https://raw.githubusercontent.com/juliusmh/nukit/master/docs/screen1.png "Screenshot 1")
 
+![Screenshot 1 light](https://raw.githubusercontent.com/juliusmh/nukit/master/docs/screen1-light.png "Screenshot 1 light")
+
 ## Docs
 **TODO, got to study sometimes :(**
