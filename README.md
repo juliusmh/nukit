@@ -6,7 +6,7 @@ complete css framework this might not be the right repo for you.
 
 # Screenshots
 **TODO**
-![Screenshot 1](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot 1")
+![Screenshot 1](https://raw.githubusercontent.com/juliusmh/nukit/master/docs/screen1.png "Screenshot 1")
 
 
 # Docs
