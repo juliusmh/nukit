@@ -7,8 +7,5 @@ complete css framework this might not be the right repo for you.
 ## Screenshots
 ![Screenshot 1](https://raw.githubusercontent.com/juliusmh/nukit/a1c49aaade9c60ef473db7caf598b51fa55ab6ef/docs/screen1.png "Screenshot 1")
 
-**TODO**
-
-
 ## Docs
 **TODO**
