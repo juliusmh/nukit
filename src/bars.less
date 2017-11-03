@@ -1,0 +1,42 @@
+
+.toolbar {
+  background-color: @color-control-darker;
+  min-height: 22px;
+  @include clearfix;
+  padding: @padding;
+}
+
+.toolbar-header {
+
+}
+
+.toolbar-footer {
+  border-top: 1px solid @color-control-element;
+  -webkit-app-region: drag;
+}
+
+// Borderless toolbar for the clean look
+.toolbar-borderless {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+// Buttons in toolbars
+.toolbar-actions {
+
+/*
+  margin-top: 4px;
+  margin-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-bottom: 3px;*/
+
+  -webkit-app-region: drag;
+  @include clearfix;
+
+  > .btn,
+  > .btn-group {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
